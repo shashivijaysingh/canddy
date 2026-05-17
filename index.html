@@ -49,7 +49,7 @@
 <body>
     <div class="sweetbox">
         <img src="box.png" alt="canddybox" onclick="change()" id="box">
-        <p id="text">Open your mouth and click on the Box👆🏻</p>
+        <p id="text">Click on the Box👆🏻</p>
     </div>
     <script>
         let box = document.getElementById('box');
@@ -63,7 +63,7 @@
             if (light == false) {
                 box.setAttribute("src", "box.png");
                 light = true;
-                text.innerHTML = "Open your mouth and click on the Box👆🏻";
+                text.innerHTML = "Click on the Box👆🏻";
             }
             else {
                 box.setAttribute("src", "openbox.jpeg");
